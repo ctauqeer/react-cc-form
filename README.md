@@ -51,6 +51,18 @@ git add .
 
 git commit -m "Updates:  "
 
+git push origin tcDevBranch
+
+git checkout main 
+
+git pull 
+
+Now delete the branches locally and on remote 
+
+git branch -d <branch>
+
+git push <remote> --delete <branch>
+
 
 """
 
