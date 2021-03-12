@@ -18,10 +18,12 @@ enter these commands on terminal
 git checkout -b tcDevBranch
 git status
 git add .
-git commit -m "Fixed Form Validation, form appearance."
+git commit -m "Updates:  "
 git remote add origin https://github.com/ctauqeer/react-cc-form.git
 git push origin tcDevBranch
 """
+Go on github and create a pull request using the button.
+Approve and merge the new changes.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
