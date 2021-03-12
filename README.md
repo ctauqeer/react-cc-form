@@ -1,5 +1,28 @@
 # Getting Started with Create React App
 
+## Test on localhost
+enter these commands on terminal
+"""
+cd Desktop
+mkdir testIt
+Desktop testIt
+git clone https://github.com/ctauqeer/react-cc-form.git
+cd react-cc-form
+npm install
+yarn start
+"""
+
+## How to update main branch safely
+enter these commands on terminal
+"""
+git checkout -b tcDevBranch
+git status
+git add .
+git commit -m "Fixed Form Validation, form appearance."
+git remote add origin https://github.com/ctauqeer/react-cc-form.git
+git push origin tcDevBranch
+"""
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
