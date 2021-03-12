@@ -40,6 +40,20 @@ Go on github and create a pull request using the button.
 Approve and merge the new changes.
 
 Every change after that
+"""
+git checkout -b tcDevBranch
+
+Develop some folder
+
+git status
+
+git add .
+
+git commit -m "Updates:  "
+
+
+"""
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
