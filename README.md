@@ -3,27 +3,43 @@
 ## Test on localhost
 enter these commands on terminal
 """
+
 cd Desktop
+
 mkdir testIt
+
 Desktop testIt
+
 git clone https://github.com/ctauqeer/react-cc-form.git
+
 cd react-cc-form
+
 npm install
+
 yarn start
+
 """
 
 ## How to update main branch safely
-enter these commands on terminal
+enter these commands on terminal for first time
 """
+
 git checkout -b tcDevBranch
+
 git status
+
 git add .
+
 git commit -m "Updates:  "
+
 git remote add origin https://github.com/ctauqeer/react-cc-form.git
+
 git push origin tcDevBranch
 """
 Go on github and create a pull request using the button.
 Approve and merge the new changes.
+
+Every change after that
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
