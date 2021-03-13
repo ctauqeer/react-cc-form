@@ -8,7 +8,7 @@ cd Desktop
 
 mkdir testIt
 
-Desktop testIt
+cd testIt
 
 git clone https://github.com/ctauqeer/react-cc-form.git
 
@@ -35,15 +35,21 @@ git commit -m "Updates:  "
 git remote add origin https://github.com/ctauqeer/react-cc-form.git
 
 git push origin tcDevBranch
+
+
 """
+
 Go on github and create a pull request using the button.
 Approve and merge the new changes.
 
 Every change after that
+
 """
+
+
 git checkout -b tcDevBranch
 
-Develop some folder
+< Proceed to develop some folder/code file> 
 
 git status
 
@@ -57,7 +63,7 @@ git checkout main
 
 git pull 
 
-Now delete the branches locally and on remote 
+  Now delete the branches locally and on remote 
 
 git branch -d <branch>
 
